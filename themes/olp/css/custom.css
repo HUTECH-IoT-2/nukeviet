@@ -1,0 +1,23 @@
+/**
+ * NukeViet Content Management System
+ * @version 4.x
+ * @author VINADES.,JSC <contact@vinades.vn>
+ * @copyright (C) 2009-2021 VINADES.,JSC. All rights reserved
+ * @license GNU/GPL version 2 or any later version
+ * @see https://github.com/nukeviet The NukeViet CMS GitHub project
+ */
+
+/* Các tùy chỉnh CSS của giao diện nên để vào đây */
+.vnkhangcot-black-sidebar{
+    background-color: black;
+    height: 100%;
+    padding: 1%;
+}
+.vnkhangcot-ul-item{
+    color: white;
+    text-align: left;
+    padding: 2%;
+}
+a, a:link, a:active, a:visited{
+    color: white;
+}
