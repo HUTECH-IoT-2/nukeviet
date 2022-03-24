@@ -32,6 +32,14 @@
             </div>
         </div>
     </footer>  -->
+    <footer>
+        <h1 style="text-align: center;">
+            HỘI TIN HỌC VIỆT NAM  (VIETNAM ASSOCIATON FOR INFORMATON PROCESSING - VAIP) 
+        </h1>
+        <p style="text-align: center;" >Phụ trách: Ông Nguyễn Long,  Trưởng BTC OLP, Chủ tịch ICPC Vietnam
+            Head office: 6th floor, 14 Tran Hung Dao Str., Hanoi, Vietnam - Tel: 84-24-38211725 - email office@vaip.vn - Web www.VAIP.vn ; http://congnghevadoisong.vn/   
+        </p>
+    </footer>
     <nav class="section-footer-bottom footerNav2">
         <div class="wraper">
             <div class="container">
