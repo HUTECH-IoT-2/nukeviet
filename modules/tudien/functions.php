@@ -6,5 +6,6 @@
  * @Createdate THU, 24 Mar 2022 00:00:00 GMT
  */
 
-if ( ! defined( 'NV_IS_MOD_RSS' ) ) die( 'Stop!!!' );
+if ( ! defined( 'NV_SYSTEM' ) ) die( 'Stop!!!' );
 
+define( 'NV_IS_MOD_TUDIEN', true );
