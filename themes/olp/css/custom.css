@@ -10,7 +10,7 @@
 /* Các tùy chỉnh CSS của giao diện nên để vào đây */
 .vnkhangcot-black-sidebar{
     background-color: black;
-    height: 100%;
+    min-height: 1100px;
     padding: 1%;
 }
 .vnkhangcot-ul-item{
@@ -18,6 +18,29 @@
     text-align: left;
     padding: 2%;
 }
-a, a:link, a:active, a:visited{
+/* a, a:link, a:active, a:visited{
     color: white;
+} */
+.vnkhangcot-parallax{ 
+ 
+    /* Full height */
+    height: 298px !important; 
+ 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vnkhangcot-border-content{
+    border: 10px solid white;
+    padding: 8px;
+}
+.vnkhangcot-caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
 }

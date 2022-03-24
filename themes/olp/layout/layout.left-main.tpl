@@ -6,8 +6,17 @@
 </div>
 <div class="row">
     <div class="col-sm-18 col-md-19 col-sm-push-6 col-md-push-5">
-        [logobanner]
-        [TOP]
+        <div class="vnkhangcot-parallax" style="background-image: url('https://lh4.googleusercontent.com/ppOqg6fa5NmT2Huzp244BGiraazxRx7I7kx21Hou98kzJZ5kN4ra58tXdJuhgRJqSrj8GE90cd04BNpVmTPNAtU=w16383');">
+          
+        <div class="test" style="padding: 50px;">
+            <h1 style="color: white; text-align: center; font-size: 40px;">OLYMPIC TIN HỌC SINH VIÊN VIỆT NAM LẦN THỨ 30
+                & KỲ THI LẬP TRÌNH SINH VIÊN QUỐC TẾ ICPC ASIA HANOI 
+                
+                ĐẠI HỌC FPT, từ 22-25/03/2022</h1>
+        </div>
+          
+            [logobanner]
+        </div>
         {MODULE_CONTENT}
         [FOOTER]
     </div>

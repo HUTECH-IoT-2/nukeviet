@@ -15,24 +15,7 @@
 <!-- END: language -->
 <!-- BEGIN: main -->
 
-<div class="container">
-    <div class="wraper">
-        <div id="header">
-            <div class="logo">
-                <a title="{SITE_NAME}" href="{THEME_SITE_HREF}"><img src="{LOGO_SRC}" alt="{SITE_NAME}"></a>
-                <!-- BEGIN: site_name_h1 -->
-                <h1>{SITE_NAME}</h1>
-                <h2>{SITE_DESCRIPTION}</h2>
-                <!-- END: site_name_h1 -->
-                <!-- BEGIN: site_name_span -->
-                <span class="site_name">{SITE_NAME}</span>
-                <span class="site_description">{SITE_DESCRIPTION}</span>
-                <!-- END: site_name_span -->
-            </div>
-            <!-- <div class="right-ads">
-                [HEAD_RIGHT]
-            </div> -->
-        </div>
-    </div>
-</div>
-<!-- END: main -->
+
+
+<!-- <div class ="background-image" style="background-size: cover;background-image: url(https://lh4.googleusercontent.com/ppOqg6fa5NmT2Huzp244BGiraazxRx7I7kx21Hou98kzJZ5kN4ra58tXdJuhgRJqSrj8GE90cd04BNpVmTPNAtU=w16383);"></div>
+END: main -->

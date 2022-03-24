@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>  -->
     <nav class="section-footer-bottom footerNav2">
         <div class="wraper">
             <div class="container">
