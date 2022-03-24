@@ -219,11 +219,15 @@ function nv_link_edit_page($id)
  * @param int $detail
  * @return string
  */
-function nv_link_delete_page($id, $detail = 0)
-{
+function nv_link_delete_page($id, $detail = 0, $img = "")
+{   
+    if($img==null){
+        $img = [];
+        $img['src'] = "none";
+    }
     global $lang_global;
-    $link = '<a class="btn btn-danger btn-xs" href="javascript:void(0);" onclick="nv_del_content(' . $id . ", '" . md5($id . NV_CHECK_SESSION) . "','" . NV_BASE_ADMINURL . "', " . $detail . ')"><em class="fa fa-trash-o margin-right"></em> ' . $lang_global['delete'] . '</a>';
-
+    $link = '<a class="btn btn-danger btn-xs" href="javascript:void(0);" onclick="nv_del_content(' . $id . ", '" . md5($id . NV_CHECK_SESSION) . "','" . NV_BASE_ADMINURL . "', " . $detail . ",'".$img['src']."'".')"><em class="fa fa-trash-o margin-right"></em> ' . $lang_global['delete'] . '</a>';
+    
     return $link;
 }
 

@@ -13,11 +13,14 @@ if (!defined('NV_IS_FILE_ADMIN')) {
     exit('Stop!!!');
 }
 
+
 $id = $nv_Request->get_int('id', 'post', 0);
 $checkss = $nv_Request->get_string('checkss', 'post', '');
+$image = $nv_Request->get_string('image', 'post', '');
+//Remove image news
+unlink('/opt/lampp/htdocs/'.$image);
 $listid = $nv_Request->get_string('listid', 'post', '');
 $contents = 'NO_' . $id;
-
 if ($listid != '' and NV_CHECK_SESSION == $checkss) {
     $del_array = array_map('intval', explode(',', $listid));
 } elseif (md5($id . NV_CHECK_SESSION) == $checkss) {
@@ -69,7 +72,7 @@ if (!empty($del_array)) {
         }
     }
     $count = sizeof($del_array);
-    if ($count) {
+    if ($count) {       
         nv_insert_logs(NV_LANG_DATA, $module_name, $lang_module['permissions_del_content'], implode(', ', $artitle), $admin_info['userid']);
     }
     if (!empty($no_del_array)) {

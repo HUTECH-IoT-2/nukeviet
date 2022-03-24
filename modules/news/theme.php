@@ -876,7 +876,7 @@ function detail_theme($news_contents, $array_keyword, $related_new_array, $relat
     }
 
     if (defined('NV_IS_MODADMIN')) {
-        $xtpl->assign('ADMINLINK', nv_link_edit_page($news_contents['id']) . ' ' . nv_link_delete_page($news_contents['id'], 1));
+        $xtpl->assign('ADMINLINK', nv_link_edit_page($news_contents['id']) . ' ' . nv_link_delete_page($news_contents['id'], 1, $news_contents['image']));
         $xtpl->parse('main.adminlink');
     }
 

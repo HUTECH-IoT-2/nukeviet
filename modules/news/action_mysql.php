@@ -93,7 +93,7 @@ $sql_create_module[] = 'CREATE TABLE ' . $db_config['prefix'] . '_' . $lang . '_
     ) ENGINE=MyISAM";
 
 $sql_create_module[] = 'CREATE TABLE ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_topics (
-     topicid smallint(5) unsigned NOT NULL AUTO_INCREMENT,
+     topicid smallint(5) unsigned NOT NULL AUTO_INCREMENT,o
      title varchar(250) NOT NULL DEFAULT '',
      alias varchar(250) NOT NULL DEFAULT '',
      image varchar(255) DEFAULT '',
